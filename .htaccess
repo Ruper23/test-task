@@ -1,7 +1,9 @@
 <FilesMatch "^[^\.]+$">
     ForceType text/html
 </FilesMatch>
-
+Access-Control-Allow-Origin: *
+Header set Access-Control-Allow-Origin 'origin-list'
+ErrorDocument 404 http://test-task.rf.gd/test-task/index.html
 RewriteEngine on
 
 RewriteCond %{QUERY_STRING} ^(.+)$
