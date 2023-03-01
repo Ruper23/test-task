@@ -23,7 +23,7 @@ ul.nav {
 /* Main element of the naviagtion */
 .nav > li {
 	display: inline-block;
-	background: url("../images/menu-divider.png") no-repeat right;
+	background: url("../images/icons/menu-divider.png") no-repeat right;
 	float: left;
 }
 .nav > li:nth-child(5) {
@@ -38,7 +38,7 @@ ul.nav {
 	border-width: 5px 0 0 0;
 	border-style: solid;
 	border-color: rgba(255, 255, 255, 0);
-	background: url("../images/menu-arrow.png") no-repeat 51% 66%;
+	background: url("../images/icons/menu-arrow.png") no-repeat 51% 66%;
 	padding-top: 20px;
 	padding-right: 20px;
 	padding-bottom: 30px;
@@ -57,7 +57,7 @@ ul.nav {
 .nav > li:hover > a {
 	color: #000;
 	background-color: #e2b61a;
-	background-image: url("../images/menu-arrow-hover.png");
+	background-image: url("../images/icons/menu-arrow-hover.png");
 	background-repeat: no-repeat;
 	background-position: 51% 66%;
 	border-color: #fff;
@@ -105,10 +105,10 @@ ul.nav {
 	position: absolute;
 	right: 5px;
 	top: 15px;
-	background: url("../images/arrow-before.png") no-repeat center;
+	background: url("../images/icons/arrow-before.png") no-repeat center;
 }
 .nav > li > ul li:hover a span.arrow {
-	background: url("../images/nav-arrow.png") no-repeat center;
+	background: url("../images/icons/nav-arrow.png") no-repeat center;
 }
 .nav > li > ul li:hover {
 	color: #fff;
@@ -286,7 +286,7 @@ input#mobile_menu {
 	}
 	.nav li > ul li a span.arrow {
 		right: 20px;
-		background: url("../images/nav-arrow2.png") no-repeat center;
+		background: url("../images/icons/nav-arrow2.png") no-repeat center;
 	}
 	.nav li ul,
 	.nav li .fulldrop,
@@ -303,10 +303,10 @@ input#mobile_menu {
 		background-color: #cacaca;
 	}
 	.nav > li > a {
-		background: url("../images/menu-arrow.png") no-repeat 97% 48%;
+		background: url("../images/icons/menu-arrow.png") no-repeat 97% 48%;
 	}
 	.nav > li:hover > a {
-		background: url("../images/menu-arrow-hover.png") no-repeat 97% 48% #dcbc86;
+		background: url("../images/icons/menu-arrow-hover.png") no-repeat 97% 48% #dcbc86;
 	}
 	.nav .fulldrop,
 	.nav .coldrop {
