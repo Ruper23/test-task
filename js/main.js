@@ -57,8 +57,8 @@ $(function () {
 
 
 $(function () {
-  $('header').load('../html/header.html')
+  $('header').load('html/header.html')
 })
 $(function () {
-  $('footer').load('../html/footer.html')
+  $('footer').load('html/footer.html')
 })
