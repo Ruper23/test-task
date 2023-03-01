@@ -9,8 +9,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	font-style: normal;
 	font-weight: 300;
 	src: local("Open Sans Cond Light"), local("OpenSans-CondensedLight"),
-		url(http://fonts.gstatic.com/s/opensanscondensed/v10/gk5FxslNkTTHtojXrkp-xD1GzwQ5qF9DNzkQQVRhJ4g.ttf)
-			format("truetype");
+		url("../fonts/opensanscon.ttf") format("truetype");
 }
 h4,
 h5,
