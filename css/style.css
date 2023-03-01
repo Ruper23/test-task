@@ -142,13 +142,13 @@ a#loginButton:hover {
 #loginButton span i.search-icon {
 	width: 16px;
 	height: 16px;
-	background: url("../images/search-icon.png") no-repeat 0px 1px;
+	background: url("../images/icons/search-icon.png") no-repeat 0px 1px;
 	display: inline-block;
 	/* 	float: left; */
 	margin-right: 10px;
 }
 #loginButton span:hover i.search-icon {
-	background: url("../images/search-iconh.png") no-repeat 0px 1px;
+	background: url("../images/icons/search-iconh.png") no-repeat 0px 1px;
 }
 /* Login Box */
 #loginBox {
@@ -190,7 +190,7 @@ a#loginButton:hover {
 .search_box input[type="submit"] {
 	border: none;
 	cursor: pointer;
-	background: url("../images/search_icon.png") no-repeat 0px 8px;
+	background: url("../images/icons/search_icon.png") no-repeat 0px 8px;
 	position: absolute;
 	right: 0;
 	width: 25px;
@@ -651,11 +651,11 @@ span.icon-male {
 }
 .nbs-flexisel-nav-left {
 	left: -30px;
-	background: url("../images/arrows.png") -5px -6px no-repeat;
+	background: url("../images/icons/arrows.png") -5px -6px no-repeat;
 }
 .nbs-flexisel-nav-right {
 	right: -26px;
-	background: url("../images/arrows.png") -70px -6px no-repeat;
+	background: url("../images/icons/arrows.png") -70px -6px no-repeat;
 }
 .desc h3 {
 	font-size: 1.3em;
@@ -782,7 +782,7 @@ ul#general-info {
 	font-size: 0.85em;
 }
 .search input[type="submit"] {
-	background: url("../images/email.png") no-repeat 0px 0px;
+	background: url("../images/icons/email.png") no-repeat 0px 0px;
 	border: none;
 	cursor: pointer;
 	position: absolute;
@@ -834,7 +834,7 @@ span.yellow a:hover {
 .footer-list li.list_top {
 	margin-bottom: 2em;
 }
-.company_address p {
+.company_address p a {
 	color: #000000;
 	font-size: 0.95em;
 	padding: 2px 0;
@@ -994,10 +994,10 @@ a.btn.btn-primary.btn1.btn-normal.btn-inline {
 	border: 1px solid #dfdfdf;
 }
 .date {
-	background: url("../images/cal-icon.png") no-repeat 100% 50% #fff;
+	background: url("../images/icons/cal-icon.png") no-repeat 100% 50% #fff;
 }
 .date {
-	background: url("../images/cal-icon.png") no-repeat 100% 50% #fff;
+	background: url("../images/icons/cal-icon.png") no-repeat 100% 50% #fff;
 }
 select {
 	width: 100%;
@@ -1484,6 +1484,9 @@ ul.comment-list .desc {
 	font-size: 13px;
 	line-height: 20px;
 	font-weight: 300;
+}
+.address dd a {
+	color: inherit;
 }
 .contact-form input[type="text"] {
 	display: block;
