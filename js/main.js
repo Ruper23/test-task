@@ -1,27 +1,7 @@
+addEventListener("load", function () { setTimeout(hideURLbar, 0); }, true); function hideURLbar() { window.scrollTo(0, 1); }
 
 new WOW().init();
 
-
-
-$(function () {
-  var button = $('#loginButton');
-  var box = $('#loginBox');
-  var form = $('#loginForm');
-  button.removeAttr('href');
-  button.mouseup(function (login) {
-    box.toggle();
-    button.toggleClass('active');
-  });
-  form.mouseup(function () {
-    return false;
-  });
-  $(this).mouseup(function (login) {
-    if (!($(login.target).parent('#loginButton').length > 0)) {
-      button.removeClass('active');
-      box.hide();
-    }
-  });
-});
 
 
 $(window).load(function () {
@@ -55,7 +35,7 @@ $(function () {
 
 });
 
-
+// Add content to Header and footer
 $(function () {
   $('header').load('html/header.html')
 })
