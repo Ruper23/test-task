@@ -3,8 +3,18 @@
 </FilesMatch>
 Access-Control-Allow-Origin: *
 Header set Access-Control-Allow-Origin 'origin-list'
-ErrorDocument 404 http://test-task.rf.gd/
-RewriteEngine on
+# ErrorDocument 404 http://test-task.rf.gd/
+RewriteEngine On
+RewriteBase / 
+Options +FollowSymLinks
+
+php_flag display_errors off
+php_flag allow_url_fopen off
+
+RewriteCond %{ENV:HTTPS} on
+RewriteRule .* - [E=SSL:s]
+RewriteCond %{HTTP_HOST} ^www\.(.*) [NC]
+RewriteRule ^(.*)$ http%{ENV:SSL}://%1/$1 [R=301,L]
 
 # RewriteCond %{HTTP_HOST} ^www.test-task.rf.gd$ [NC]
 # RewriteRule ^(.*)$ http://test-task.rf.gd$1 [R=301,L]
